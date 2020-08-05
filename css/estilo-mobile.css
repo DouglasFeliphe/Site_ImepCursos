@@ -1,0 +1,691 @@
+/*Tamanho adaptável para desktops*/
+@media only screen and (max-width: 1024px) {
+	#menu li a {
+		margin: 0px;
+		font-size: 20px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	#logotipo {
+		left: 0;
+	}
+	.tabbable-line > .nav-tabs > li > a {
+		border: 0;
+		margin-right: 40px;
+		margin-left: 40px;
+		color: #737373;
+	}
+	#boxh1 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		padding: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+	}
+	#boxh11 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		padding: 10px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+	}
+	#boxh11 small {
+		font-size: 1.1rem;
+	}
+	#mapa {
+		width: 350px;
+		height: 430px;
+		margin-top: 60px;
+	}
+	footer .copyright-index {
+		margin-top: 60px;
+	}
+	footer .copyright-quemsomos {
+	}
+	footer .copyright-supletivo {
+		margin-top: 33px;
+	}
+	footer .copyright-obrigado {
+		margin-top: 100px;
+	}
+}
+/*Tamanho adaptável para desktops*/
+@media only screen and (max-width: 999px) {
+	#menu li a {
+		margin: 5px;
+		font-size: 18px;
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+	#logotipo {
+		top: 30px;
+		left: -20px;
+		width: 150px;
+		height: 100px;
+	}
+	#mapa {
+		width: 350px;
+		height: 450px;
+		margin-top: 60px;
+	}
+	footer .copyright-index {
+		margin-top: 60px;
+	}
+}
+/*Tamanho padrão para Tablets*/
+@media only screen and (width: 768px) {
+	#menu {
+		display: inline-block;
+	}
+	#logotipo {
+		left: 0px;
+	}
+	#btn-bars {
+		display: none;
+	}
+	#mapa {
+		margin-top: 60px;
+		width: 350px;
+		height: 450px;
+	}
+
+	footer .copyright-index {
+		margin-top: 150px;
+	}
+	#tourpackages-carousel {
+		display: block;
+	}
+	footer .copyright-quemsomos {
+	}
+	footer .copyright-quemsomos p {
+		font-size: 1rem;
+	}
+	footer .copyright-contato {
+		margin-top: 100px;
+	}
+	footer .copyright-obrigado {
+		margin-top: 140px;
+	}
+}
+/*Tamanho padrão para Tablets*/
+@media only screen and (max-width: 767px) {
+	#menu {
+		display: none;
+	}
+	#logotipo {
+		left: 37%;
+	}
+	#btn-bars {
+		color: #446cb3;
+		font-size: 22px;
+		position: absolute;
+		left: 0;
+		background: none;
+		border: none;
+		display: block;
+		z-index: 3;
+	}
+	header.open-menu #menu-mobile {
+		position: fixed;
+		top: 30px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		left: 0;
+		transition: 1s;
+		z-index: 5;
+	}
+	header #menu-mobile {
+		left: -80%;
+		position: fixed;
+		top: 40px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+	}
+	header.open-menu #menu-mobile-mask {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	header.open-menu #logotipo {
+		position: fixed;
+		top: 30px;
+		height: 100px;
+		width: 120px;
+		left: calc(38% - 33px);
+		transform: rotate(360deg);
+		transition: 1s;
+		z-index: 5;
+	}
+	header #menu-mobile ul {
+		margin: 20px;
+		margin-top: 120px;
+	}
+	header.open-menu #menu-mobile li {
+		text-align: center;
+		border-top: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li:last-child {
+		border-bottom: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li a {
+		color: #446cb3;
+		font-family: "OpenSans";
+		font-weight: bold;
+		font-size: 16px;
+		padding: 18px;
+		display: block;
+	}
+	header .bar-close {
+		position: absolute;
+		bottom: 30px;
+		background-color: #446cb3;
+		height: 40px;
+		width: 100%;
+	}
+	header .bar-close .btn-close {
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+	}
+	.tabbable-line > .nav-tabs {
+		border: none;
+		margin: 0px;
+		padding: 0px 0px;
+	}
+	#mapa {
+		width: 600px;
+		height: 500px;
+	}
+	#tourpackages-carousel {
+		display: block;
+	}
+	#boxh1 {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		padding: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+	}
+	#boxh11 {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		padding: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+	}
+	footer .copyright-index {
+		margin-top: 200px;
+	}
+	footer .copyright-quemsomos {
+	}
+	footer .copyright-quemsomos p {
+		font-size: 1rem;
+	}
+	footer .copyright-contato {
+		margin-top: 100px;
+	}
+}
+/*Tamanho padrão para Smartphones*/
+@media only screen and (max-width: 600px) {
+	#menu {
+		display: none;
+	}
+	#logotipo {
+		left: 30%;
+	}
+	ul .dropdown-menu {
+		position: absolute;
+		top: -134%;
+		left: 35px;
+		z-index: 1000;
+		background: #fff;
+	}
+	#btn-bars {
+		color: #446cb3;
+		font-size: 22px;
+		position: absolute;
+		left: 0;
+		background: none;
+		border: none;
+		display: block;
+	}
+	#header-black {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	header.open-menu #menu-mobile {
+		position: fixed;
+		top: 30px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		left: 0;
+		transition: 1s;
+		z-index: 5;
+	}
+	header #menu-mobile {
+		left: -80%;
+		position: fixed;
+		top: 40px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		transition-property: transform;
+		z-index: 5;
+	}
+	header.open-menu #menu-mobile-mask {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 4;
+	}
+	header.open-menu #logotipo {
+		position: fixed;
+		top: 30px;
+		height: 100px;
+		width: 120px;
+		left: calc(32% - 33px);
+		z-index: 10;
+		transform: rotate(360deg);
+		transition: 1s;
+	}
+	header.open-menu #menu-mobile ul {
+		margin: 20px;
+		margin-top: 120px;
+	}
+	header.open-menu #menu-mobile li {
+		text-align: center;
+		border-top: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li:last-child {
+		border-bottom: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li a {
+		color: #446cb3;
+		font-family: "OpenSans";
+		font-weight: bold;
+		font-size: 16px;
+		padding: 18px;
+		display: block;
+	}
+	header.open-menu .bar-close {
+		position: absolute;
+		bottom: 30px;
+		background-color: #446cb3;
+		height: 40px;
+		width: 100%;
+	}
+
+	#faixa ul li i {
+		font-size: 10px;
+	}
+	#thumbnail {
+		width: 100%;
+		padding-left: 30px;
+		margin-top: 80px;
+	}
+	#mapa {
+		margin-top: 30px;
+		width: 330px;
+		height: 300px;
+	}
+	#btn {
+		margin-left: 90px;
+	}
+	header.open-menu .bar-close .btn-close {
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+	}
+	footer .copyright-index {
+		margin-top: 60px;
+	}
+}
+/*Tamanho padrão para Smartphones*/
+@media only screen and (max-width: 420px) {
+	#logotipo {
+		top: 25px;
+		margin-left: 15px;
+		width: 140px;
+		height: 120px;
+	}
+	#faixa {
+		display: inline-block;
+		width: 100%;
+		height: 40px;
+	}
+	#faixa ul li {
+		font-size: 10px;
+		margin: 0px 0px;
+		padding-right: 5px;
+		padding-left: 0px;
+	}
+	ul .dropdown-menu {
+		position: absolute;
+		top: -115%;
+		left: 20px;
+		z-index: 1000;
+	}
+	#btn-bars {
+		color: #446cb3;
+		font-size: 22px;
+		position: absolute;
+		left: 0;
+		background: none;
+		border: none;
+		display: block;
+		z-index: 10;
+	}
+	header.open-menu #menu-mobile {
+		position: fixed;
+		top: 30px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		left: 0;
+		transition: 1s;
+		z-index: 5;
+	}
+	header #menu-mobile {
+		left: -80%;
+		position: fixed;
+		top: 40px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		transition-property: transform;
+		z-index: 5;
+	}
+	header.open-menu #menu-mobile-mask {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 4;
+	}
+	header.open-menu #logotipo {
+		position: fixed;
+		top: 30px;
+		height: 100px;
+		width: 120px;
+		left: calc(32% - 33px);
+		z-index: 10;
+		transform: rotate(360deg);
+		transition: 1s;
+	}
+	header.open-menu #menu-mobile ul {
+		margin: 20px;
+		margin-top: 120px;
+		background: #fff;
+	}
+	header.open-menu #menu-mobile li {
+		text-align: center;
+		border-top: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li:last-child {
+		border-bottom: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li a {
+		color: #446cb3;
+		font-family: "OpenSans";
+		font-weight: bold;
+		font-size: 16px;
+		padding: 18px;
+		display: block;
+	}
+	header.open-menu .bar-close {
+		position: absolute;
+		bottom: 30px;
+		background-color: #446cb3;
+		height: 40px;
+		width: 100%;
+	}
+	header.open-menu .bar-close .btn-close {
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+	}
+	#boxh1 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 150px;
+		padding: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		font-size: 2.2rem;
+	}
+	#boxh11 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 150px;
+		padding: 10px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		box-sizing: border-box;
+		font-size: 2rem;
+	}
+	#boxh11 small {
+		font-size: 1.1rem;
+	}
+	#mapa {
+		margin-top: 30px;
+		width: 380px;
+		height: 340px;
+	}
+	#btn {
+		margin-left: 90px;
+	}
+	#qualificacao {
+		text-align: center;
+	}
+	.tabbable-line > .nav-tabs {
+		border: none;
+		margin: 0px;
+		padding: 0px 90px;
+	}
+	footer .copyright-quemsomos {
+		padding: 5px;
+	}
+	footer .copyright-quemsomos p {
+		font-size: 1rem;
+	}
+	footer .copyright-obrigado {
+		margin-top: 150px;
+	}
+}
+/*Tamanho padrão para Smartphones*/
+@media only screen and (max-width: 375px) {
+	#menu {
+		display: none;
+	}
+	#logotipo {
+		top: 25px;
+		margin-left: 5px;
+		width: 140px;
+		height: 120px;
+		transition: 1s;
+	}
+	ul .dropdown-menu {
+		position: absolute;
+		top: -109%;
+		left: -20px;
+		z-index: 1000;
+		background: #446cb3;
+	}
+	#menu .dropdown-menu li a {
+		font-family: "OpenSans";
+		color: #fff;
+		font-size: 15px;
+		padding: 15px;
+		margin: 10px;
+		background: none;
+		margin-top: 10px;
+	}
+	#btn-bars {
+		color: #446cb3;
+		font-size: 22px;
+		position: absolute;
+		left: 0;
+		background: none;
+		border: none;
+		display: block;
+		z-index: 10;
+	}
+	div.header-black {
+		display: block;
+	}
+	.header-black {
+		padding-left: 3px;
+		padding-right: 3px;
+		font-size: 5px;
+	}
+	header.open-menu #menu-mobile {
+		position: fixed;
+		top: 30px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		left: 0;
+		transition: 1s;
+		z-index: 5;
+	}
+	header #menu-mobile {
+		left: -80%;
+		position: fixed;
+		top: 40px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		transition-property: transform;
+		z-index: 5;
+	}
+	header.open-menu #menu-mobile-mask {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 4;
+	}
+	header.open-menu #logotipo {
+		position: fixed;
+		top: 30px;
+		height: 100px;
+		width: 120px;
+		left: calc(32% - 33px);
+		z-index: 10;
+		transform: rotate(360deg);
+		transition: 1s;
+	}
+	header #menu-mobile ul {
+		margin: 20px;
+		margin-top: 120px;
+		background: #fff;
+	}
+	header.open-menu #menu-mobile li {
+		text-align: center;
+		border-top: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li:last-child {
+		border-bottom: #ccc 1px solid;
+	}
+	header.open-menu #menu-mobile li a {
+		color: #446cb3;
+		font-family: "OpenSans";
+		font-weight: bold;
+		font-size: 16px;
+		padding: 18px;
+		display: block;
+	}
+	header .bar-close {
+		position: absolute;
+		bottom: 30px;
+		background-color: #446cb3;
+		height: 40px;
+		width: 100%;
+	}
+	header .bar-close .btn-close {
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+	}
+	#faixa {
+		width: 100%;
+		height: auto;
+	}
+	.row-qualificacoes {
+		margin: 0px;
+	}
+
+	#mapa {
+		margin-top: 30px;
+		width: 330px;
+		height: 300px;
+	}
+	.tabbable-line > .nav-tabs {
+		border: none;
+		margin: 0px;
+		padding: 0px 50px;
+	}
+	#boxh1 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+		padding: 10px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		font-size: 2.2rem;
+	}
+	#boxh11 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	#boxh11 small {
+		font-size: 1.1rem;
+	}
+	footer .copyright-index {
+		margin-top: 60px;
+	}
+	footer .copyright-quemsomos {
+		margin-top: 25px;
+	}
+	footer .copyright-quemsomos p {
+		font-size: 1rem;
+	}
+	footer .copyright-contato {
+		margin-top: 70px;
+	}
+	footer .copyright-supletivo {
+		margin-top: 0px;
+	}
+	footer .copyright-obrigado {
+		margin-top: 78px;
+	}
+}
