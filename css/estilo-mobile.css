@@ -86,6 +86,10 @@
 	#btn-bars {
 		display: none;
 	}
+	#faixa {
+		width: 100%;
+		height: auto;
+	}
 	#mapa {
 		margin-top: 60px;
 		width: 350px;
@@ -117,6 +121,10 @@
 	}
 	#logotipo {
 		left: 37%;
+	}
+	#faixa {
+		width: 100%;
+		height: auto;
 	}
 	#btn-bars {
 		color: #446cb3;
@@ -335,6 +343,10 @@
 	#faixa ul li i {
 		font-size: 10px;
 	}
+	#faixa {
+		width: 100%;
+		height: auto;
+	}
 	#thumbnail {
 		width: 100%;
 		padding-left: 30px;
@@ -365,6 +377,42 @@
 		margin-left: 15px;
 		width: 140px;
 		height: 120px;
+	}
+	.container__instagram__feed {
+		/* flex-direction: column; */
+		/* border: 1px solid #000;	 */
+	}
+	.container__instagram__feed__title {
+		/* border: 1px solid #000; */
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-right-radius: 0;
+		transform: rotate(0deg);
+		padding: 0;
+		width: 100%;
+	}
+	.container__instagram__feed__title span {
+		writing-mode: horizontal-tb;
+	}
+	.container__instagram__feed__title img {
+		/* height: 100%; */
+		/* display: none; */
+		/* transform: rotate(45deg); */
+	}
+	.container__instagram__feed__title img:nth-child(1) {
+		/* border: 1px solid #000; */
+		/* display: block; */
+		/* width: 100%; */
+		/* height: 22px; */
+	}
+	.instagram_feed .instagram_gallery {
+		/* border: 1px solid #000; */
+		flex-direction: column;
+		/* margin: 22px; */
+	}
+	.instagram_feed .instagram_gallery img {
+		/* margin: 22px 44px; */
+		margin: 22px;
 	}
 	#faixa {
 		display: inline-block;
@@ -519,9 +567,13 @@
 	#menu {
 		display: none;
 	}
+	.nav-menu {
+		justify-content: center !important;
+	}
 	#logotipo {
 		top: 25px;
-		margin-left: 5px;
+		right: 75px;
+		margin-left: 155px;
 		width: 140px;
 		height: 120px;
 		transition: 1s;
@@ -635,6 +687,10 @@
 	#faixa {
 		width: 100%;
 		height: auto;
+	}
+	#faixa .container {
+		/* height: 300px;
+		clear: both; */
 	}
 	.row-qualificacoes {
 		margin: 0px;

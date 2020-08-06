@@ -1,5 +1,6 @@
 <DOCTYPE! html>
-<html>
+	<html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
 		<title>IMEC Cursos - Unidades</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/@fortawesome/fontawesome-free/css/all.css">
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/estilo.css">
 		<link rel="stylesheet" href="css/estilo-mobile.css">
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -16,62 +19,69 @@
 
 	<body>
 		<header>
-			
+
 			<div id="menu-mobile-mask" class="visible-xs"></div>
 
 			<div id="menu-mobile" class="visible-xs">
 				<ul class="list-unstyled">
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="qualificacoes.html"><span class="glyphicon">&#xe233;</span> CURSOS</a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="qualificacoes.html"><span
+								class="glyphicon">&#xe233;</span>CURSOS</a>
 						<ul class="dropdown-menu" role="menu">
-			             	<li><a href="qualificacoes.html">Cursos de Qualificações Técnicas</a></li>
-			              	<li><a href="supletivo.html">Supletivo/EJA</a></li>
-			            </ul>
+							<li><a href="qualificacoes.html">Cursos de Qualificações Técnicas</a></li>
+							<li><a href="supletivo.html">Supletivo/EJA</a></li>
+						</ul>
 					</li>
-					<li><a href="quem-somos.html"><span class="glyphicon">&#xe086;</span> QUEM SOMOS</a></li>
-					<li><a href="unidade.html"><span class="glyphicon">&#xe021;</span> UNIDADES</a></li>
-					<li><a href="contato.html"><span class="glyphicon">&#xe183;</span> CONTATO</a></li>
+					<li><a href="quem-somos.html">QUEM SOMOS</a></li>
+					<li><a href="unidade.html"> UNIDADES</a></li>
+					<li><a href="contato.html">CONTATO</a></li>
+					<li><a href="contato.html"><span class="fab fa-whatsapp"></span> WHATSAPP</a></li>
+					<li><a href="contato.html"><span class="fab fa-facebook"></span> FACEBOOK</a></li>
+					<li><a href="contato.html"><span class="fab fa-instagram"></span> TWITTER</a></li>
 				</ul>
 
 				<div class="bar-close">
 					<button type="button" class="btn btn-close"><i class="fa fa-close"></i></button>
-				</div>	
-
+				</div>
 			</div>
 
-			<a href="index.html">
-			<div class="container container-logo">
-				<img id="logotipo" src="img/imec.png" alt="Logotipo">
-			</div>
-			</a>
 			<div class="header-black">
 				<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
-				<div class="container">
-					<ul class="pull-right">
-						<li><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
-						<li><a href="https://www.facebook.com/imec.cursos/"><i class="fa fa-user"></i> FACEBOOK</a></li>
-						<li><a href="faq.html"><i class="fa">&#xf059;</i> FAQ</a></li>
+			</div>
+
+			<nav class="nav-menu">
+				<div>
+					<a href="index.html">
+						<img id="logotipo" src="img/imec.png" width="196" height="160" alt="Logotipo">
+					</a>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html"> PRINCIAL</a> </li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="qualificacoes.html">CURSOS</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="qualificacoes.html">Cursos de Qualificações Técnicas</a></li>
+								<li><a href="supletivo.html">Supletivo/EJA</a></li>
+							</ul>
+						</li>
+						<li><a href="quem-somos.html"> QUEM SOMOS</a> </li>
+						<li><a href="unidade.html">UNIDADES</a></li>
+						<li><a href="contato.html">CONTATO</a> </li>
+						<li class="redes-socias">
+							<a href="https://twitter.com/imepdf"><span class="fab fa-twitter"></span> </a>
+						</li>
+						<li class="redes-socias">
+							<a href="https://www.instagram.com/imepcursos/"><span class="fab fa-instagram"></span>
+							</a>
+						</li>
+						<li class="redes-socias">
+							<a href="https://www.facebook.com/imec.cursos/"><span class="fab fa-facebook"></span>
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>			
-			<div class="container">
-				<div class="row">
-					<nav id="menu" class="pull-right">
-						<ul>
-							<li class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="qualificacoes.html"><span class="glyphicon">&#xe233;</span> CURSOS</a>
-								<ul class="dropdown-menu" role="menu">
-					              	<li><a href="qualificacoes.html">Cursos de Qualificações Técnicas</a></li>
-			              			<li><a href="supletivo.html">Supletivo/EJA</a></li>
-					            </ul>
-							</li>
-							<li><a href="quem-somos.html"><span class="glyphicon">&#xe086;</span> QUEM SOMOS</a></li>
-							<li><a href="unidade.html"><span class="glyphicon">&#xe021;</span> UNIDADES</a></li>
-							<li><a href="contato.html"><span class="glyphicon">&#xe183;</span> CONTATO</a></li>
-						</ul>	
-					</nav>
-				</div>
-			</div>
+			</nav>
 		</header>
 		<section>
 			<div class="container">
@@ -81,174 +91,192 @@
 						<div class="tabbable-line">
 							<ul class="nav nav-tabs">
 								<li class="active">
-								<a href="#tab_default_1" data-toggle="tab"><b>São Sebastião</b></a>
+									<a href="#tab_default_1" data-toggle="tab"><b>São Sebastião</b></a>
 								</li>
 								<li>
-								<a href="#tab_default_2" data-toggle="tab"><b>Gama</b></a>
+									<a href="#tab_default_2" data-toggle="tab"><b>Gama</b></a>
 								</li>
 								<li>
-								<a href="#tab_default_3" data-toggle="tab"><b>Formosa</b></a>
+									<a href="#tab_default_3" data-toggle="tab"><b>Formosa</b></a>
 								</li>
 								<li>
-								<a href="#tab_default_4" data-toggle="tab"><b>Planaltina</b></a>
+									<a href="#tab_default_4" data-toggle="tab"><b>Planaltina</b></a>
 								</li>
 								<li>
-								<a href="#tab_default_5" data-toggle="tab"><b>Santa Maria</b></a>
+									<a href="#tab_default_5" data-toggle="tab"><b>Santa Maria</b></a>
 								</li>
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active" id="tab_default_1">
-								<div class="container">
-									<div class="col-lg-6 col-sm-6 col-md-6">
-							            <div class="box">
-							                <div class="box-icon">
-							            		<span class="glyphicon" style="font-size: 50px; color: #446db3;">&#xe183;</span>
-							                </div>
-							                <div class="unidade">
-							                    <h1>INFORMAÇÕES</h1>
-							                	<h3>ENDEREÇO</h3>
-												<p>Quadra 103 Conjunto 10 Lote 05/06 - Residencial Oeste - São Sebastião - Distrito Federal</p> 
-												<p>Prédio da ACISS - 1º Andar</p>
-												<h3>TELEFONES PARA CONTATO</h3>
-												<p>Telefone Fixo: (61) 3335-1245</p>
-												<p>Claro: (61) 99108-3469</p>
-												<p>Tim: (61) 98120-5075</p>
-
-												<h3>E-MAIL</h3>
-												<p>imecqualificacoes@gmail.com</p>
-
-												<h3>HORÁRIO DE FUNCIONAMENTO</h3>
-												<p>Segunda à Sexta: 07:30 às 21:30</p>
-												<p>Sábado: 07:30 às 19:30</p>
-							                </div>
-							            </div>
-						        	</div>
-						        	<div class="col-lg-6 col-sm-6 col-md-6 text-center">
-										<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.207372646461!2d-47.78403098470163!3d-15.898203188986928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a21c8444e9bd7%3A0xe007239e5f193d10!2sQuadra+103+Conjunto+10+-+Q.+103+-+S%C3%A3o+Sebasti%C3%A3o%2C+Bras%C3%ADlia+-+DF!5e0!3m2!1spt-BR!2sbr!4v1498222428369" frameborder="0" style="border:0" allowfullscreen></iframe>
-									</div>
-								</div>
-								</div>
-								<div class="tab-pane" id="tab_default_2">
 									<div class="container">
-										<div class="col-lg=6 col-sm-6 col-md-6">
-								            <div class="box">
-								                <div class="box-icon">
-								            		<span class="glyphicon" style="font-size: 50px; color: #446db3;">&#xe183;</span>
-								                </div>
-								                <div class="unidade">
-								                    <h1>INFORMAÇÕES</h1>
-								                	<h3>ENDEREÇO</h3>
-													<p>Area Especial 20/21, Ed. Alternativo Center, Setor Central</p>
-													<p>CEP: 72425000 Gama, Distrito Federal</p>
-
+										<div class="col-lg-6 col-sm-6 col-md-6">
+											<div class="box">
+												<div class="box-icon">
+													<span class="glyphicon"
+														style="font-size: 50px; color: #446db3;">&#xe183;</span>
+												</div>
+												<div class="unidade">
+													<h1>INFORMAÇÕES</h1>
+													<h3>ENDEREÇO</h3>
+													<p>Quadra 103 Conjunto 10 Lote 05/06 - Residencial Oeste - São
+														Sebastião - Distrito Federal</p>
+													<p>Prédio da ACISS - 1º Andar</p>
 													<h3>TELEFONES PARA CONTATO</h3>
-													<p>Telefone Fixo: (61) 3045-2066</p>
-													<p><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp: (61) 98303-0168</p>
+													<p>Telefone Fixo: (61) 3335-1245</p>
+													<p>Claro: (61) 99108-3469</p>
+													<p>Tim: (61) 98120-5075</p>
 
 													<h3>E-MAIL</h3>
 													<p>imecqualificacoes@gmail.com</p>
 
 													<h3>HORÁRIO DE FUNCIONAMENTO</h3>
 													<p>Segunda à Sexta: 07:30 às 21:30</p>
-								                </div>
-								            </div>
-							        	</div>
-										<div class="col-lg-6 col-sm-6 col-md-6">
-											<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7670.078673082513!2d-48.07819027545822!3d-16.011467655666287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935980085bdc17b7%3A0xee45f16db24a973b!2sAlternativo+Center!5e0!3m2!1spt-PT!2sbr!4v1501240845039" frameborder="0" style="border:0" allowfullscreen></iframe>
+													<p>Sábado: 07:30 às 19:30</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-sm-6 col-md-6 text-center">
+											<iframe id="mapa"
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.207372646461!2d-47.78403098470163!3d-15.898203188986928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a21c8444e9bd7%3A0xe007239e5f193d10!2sQuadra+103+Conjunto+10+-+Q.+103+-+S%C3%A3o+Sebasti%C3%A3o%2C+Bras%C3%ADlia+-+DF!5e0!3m2!1spt-BR!2sbr!4v1498222428369"
+												frameborder="0" style="border:0" allowfullscreen></iframe>
 										</div>
 									</div>
 								</div>
-							<div class="tab-pane" id="tab_default_3">
-								<div class="container">
-									<div class="col-lg=6 col-sm-6 col-md-6">
-							            <div class="box">
-							                <div class="box-icon">
-							            		<span class="glyphicon" style="font-size: 50px; color: #446db3;">&#xe183;</span>
-							                </div>
-							                <div class="unidade">
-							                    <h1>INFORMAÇÕES</h1>
-							                	<h3>ENDEREÇO</h3>
-												<p>Rua João Moreira, Nº 329, Centro</p>
-												<p>Polo do IMEC, Formosa, Goiás</p>
+								<div class="tab-pane" id="tab_default_2">
+									<div class="container">
+										<div class="col-lg=6 col-sm-6 col-md-6">
+											<div class="box">
+												<div class="box-icon">
+													<span class="glyphicon"
+														style="font-size: 50px; color: #446db3;">&#xe183;</span>
+												</div>
+												<div class="unidade">
+													<h1>INFORMAÇÕES</h1>
+													<h3>ENDEREÇO</h3>
+													<p>Area Especial 20/21, Ed. Alternativo Center, Setor Central</p>
+													<p>CEP: 72425000 Gama, Distrito Federal</p>
 
-												<h3>TELEFONES PARA CONTATO</h3>
-												<p>Telefone Fixo: (61) 3631-8799</p>
-												<p><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp: (61) 99870-3204</p>
+													<h3>TELEFONES PARA CONTATO</h3>
+													<p>Telefone Fixo: (61) 3045-2066</p>
+													<p><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp: (61)
+														98303-0168</p>
 
-												<h3>E-MAIL</h3>
-												<p>imecqualificacoes@gmail.com</p>
+													<h3>E-MAIL</h3>
+													<p>imecqualificacoes@gmail.com</p>
 
-												<h3>HORÁRIO DE FUNCIONAMENTO</h3>
-												<p>Segunda à Sexta: 07:30 às 21:30</p>
-							                </div>
-							            </div>
-						        	</div>
-									<div class="col-lg-6 col-sm-6 col-md-6">
-										<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15375.724548446136!2d-47.3385796!3d-15.5418219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e3389cf3d21a1a3!2sIMEC!5e0!3m2!1spt-BR!2sbr!4v1499216469511" frameborder="0" style="border:0" allowfullscreen></iframe>
+													<h3>HORÁRIO DE FUNCIONAMENTO</h3>
+													<p>Segunda à Sexta: 07:30 às 21:30</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-sm-6 col-md-6">
+											<iframe id="mapa"
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7670.078673082513!2d-48.07819027545822!3d-16.011467655666287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935980085bdc17b7%3A0xee45f16db24a973b!2sAlternativo+Center!5e0!3m2!1spt-PT!2sbr!4v1501240845039"
+												frameborder="0" style="border:0" allowfullscreen></iframe>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="tab-pane" id="tab_default_4">
-								<div class="container">
-									<div class="col-lg=6 col-sm-6 col-md-6">
-							            <div class="box">
-							                <div class="box-icon">
-							            		<span class="glyphicon" style="font-size: 50px; color: #446db3;">&#xe183;</span>
-							                </div>
-							                <div class="unidade">
-							                    <h1>INFORMAÇÕES</h1>
-							                	<h3>ENDEREÇO</h3>
-												<p>Quadra 1 Bloco H Mezanino, 1º Andar</p>
-												<p>Planaltina, Distrito Federal
-												<p>Ao lado da Caixa Econômica</p>
+								<div class="tab-pane" id="tab_default_3">
+									<div class="container">
+										<div class="col-lg=6 col-sm-6 col-md-6">
+											<div class="box">
+												<div class="box-icon">
+													<span class="glyphicon"
+														style="font-size: 50px; color: #446db3;">&#xe183;</span>
+												</div>
+												<div class="unidade">
+													<h1>INFORMAÇÕES</h1>
+													<h3>ENDEREÇO</h3>
+													<p>Rua João Moreira, Nº 329, Centro</p>
+													<p>Polo do IMEC, Formosa, Goiás</p>
 
-												<h3>TELEFONES PARA CONTATO</h3>
-												<p>Telefone Fixo: (61) 3388-4282</p>
-												<p>Celular: (61) 99817-5598</p>
+													<h3>TELEFONES PARA CONTATO</h3>
+													<p>Telefone Fixo: (61) 3631-8799</p>
+													<p><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp: (61)
+														99870-3204</p>
 
-												<h3>E-MAIL</h3>
-												<p>imecqualificacoes@gmail.com</p>
+													<h3>E-MAIL</h3>
+													<p>imecqualificacoes@gmail.com</p>
 
-												<h3>HORÁRIO DE FUNCIONAMENTO</h3>
-												<p>Segunda à Sexta: 07:30 às 21:30</p>
-							                </div>
-							            </div>
-						        	</div>
-									<div class="col-lg-6 col-sm-6 col-md-6">
-										<iframe id ="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.31525446354505!2d-47.655280396647726!3d-15.617165448312077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a132d8d137f4b%3A0x5e4d339b9e8e3f23!2sCaixa+Econ%C3%B4mica+Federal!5e0!3m2!1spt-BR!2sbr!4v1500149678682" frameborder="0" style="border:0" allowfullscreen></iframe>
+													<h3>HORÁRIO DE FUNCIONAMENTO</h3>
+													<p>Segunda à Sexta: 07:30 às 21:30</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-sm-6 col-md-6">
+											<iframe id="mapa"
+												src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15375.724548446136!2d-47.3385796!3d-15.5418219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e3389cf3d21a1a3!2sIMEC!5e0!3m2!1spt-BR!2sbr!4v1499216469511"
+												frameborder="0" style="border:0" allowfullscreen></iframe>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="tab-pane" id="tab_default_5">
-								<div class="container">
-									<div class="col-lg=6 col-sm-6 col-md-6">
-							            <div class="box">
-							                <div class="box-icon">
-							            		<span class="glyphicon" style="font-size: 50px; color: #446db3;">&#xe183;</span>
-							                </div>
-							                <div class="unidade">
-							                    <h1>INFORMAÇÕES</h1>
-							                	<h3>ENDEREÇO</h3>
-												<p>CL 214 Bloco D Sala 101 - 1º Andar</p>
-												<p>Santa Maria, Distrito Federal</p>
+								<div class="tab-pane" id="tab_default_4">
+									<div class="container">
+										<div class="col-lg=6 col-sm-6 col-md-6">
+											<div class="box">
+												<div class="box-icon">
+													<span class="glyphicon"
+														style="font-size: 50px; color: #446db3;">&#xe183;</span>
+												</div>
+												<div class="unidade">
+													<h1>INFORMAÇÕES</h1>
+													<h3>ENDEREÇO</h3>
+													<p>Quadra 1 Bloco H Mezanino, 1º Andar</p>
+													<p>Planaltina, Distrito Federal
+														<p>Ao lado da Caixa Econômica</p>
 
-												<h3>TELEFONES PARA CONTATO</h3>
-												<p>Telefone Fixo: (61) 3394-1020</p>
-												<p>Telefone Fixo: (61) 3395-0085</p>
+														<h3>TELEFONES PARA CONTATO</h3>
+														<p>Telefone Fixo: (61) 3388-4282</p>
+														<p>Celular: (61) 99817-5598</p>
 
-												<h3>E-MAIL</h3>
-												<p>imecqualificacoes@gmail.com</p>
+														<h3>E-MAIL</h3>
+														<p>imecqualificacoes@gmail.com</p>
 
-												<h3>HORÁRIO DE FUNCIONAMENTO</h3>
-												<p>Segunda à Sexta: 07:30 às 21:30</p>
-							                </div>
-							            </div>
-						        	</div>
-									<div class="col-lg-6 col-sm-6 col-md-6">
-										<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61352.604953044014!2d-48.060145621372456!3d-16.037557908444334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359874492f98581%3A0x9ae659fc4f8cdf!2sInstituto+Midori!5e0!3m2!1spt-PT!2sbr!4v1499924791725" frameborder="0" style="border:0" allowfullscreen></iframe>
+														<h3>HORÁRIO DE FUNCIONAMENTO</h3>
+														<p>Segunda à Sexta: 07:30 às 21:30</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-sm-6 col-md-6">
+											<iframe id="mapa"
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.31525446354505!2d-47.655280396647726!3d-15.617165448312077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a132d8d137f4b%3A0x5e4d339b9e8e3f23!2sCaixa+Econ%C3%B4mica+Federal!5e0!3m2!1spt-BR!2sbr!4v1500149678682"
+												frameborder="0" style="border:0" allowfullscreen></iframe>
+										</div>
 									</div>
 								</div>
-							</div>	
+								<div class="tab-pane" id="tab_default_5">
+									<div class="container">
+										<div class="col-lg=6 col-sm-6 col-md-6">
+											<div class="box">
+												<div class="box-icon">
+													<span class="glyphicon"
+														style="font-size: 50px; color: #446db3;">&#xe183;</span>
+												</div>
+												<div class="unidade">
+													<h1>INFORMAÇÕES</h1>
+													<h3>ENDEREÇO</h3>
+													<p>CL 214 Bloco D Sala 101 - 1º Andar</p>
+													<p>Santa Maria, Distrito Federal</p>
+
+													<h3>TELEFONES PARA CONTATO</h3>
+													<p>Telefone Fixo: (61) 3394-1020</p>
+													<p>Telefone Fixo: (61) 3395-0085</p>
+
+													<h3>E-MAIL</h3>
+													<p>imecqualificacoes@gmail.com</p>
+
+													<h3>HORÁRIO DE FUNCIONAMENTO</h3>
+													<p>Segunda à Sexta: 07:30 às 21:30</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-sm-6 col-md-6">
+											<iframe id="mapa"
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61352.604953044014!2d-48.060145621372456!3d-16.037557908444334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359874492f98581%3A0x9ae659fc4f8cdf!2sInstituto+Midori!5e0!3m2!1spt-PT!2sbr!4v1499924791725"
+												frameborder="0" style="border:0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -257,42 +285,46 @@
 		</section>
 		<footer>
 			<div class="copyright-unidade">
-			  <div class="container">
-			    <div class="center-block">
-			      <p>© 2017-2018 - Todos os direitos reservados ao IMEC<small>Desenvolvido por Reinaldo Alisson</small></p>
-			    </div>
-			  </div>
+				<div class="container">
+					<div class="center-block">
+						<p>© 2017-2018 - Todos os direitos reservados ao IMEC<small>Desenvolvido por Reinaldo
+								Alisson</small></p>
+					</div>
+				</div>
 			</div>
 		</footer>
-			<script src="lib/jquery/jquery.min.js"></script>
-			<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-			<script src="js/efeitos.js"></script>
-			<!--Start of Tawk.to Script-->
-			<script type="text/javascript">
-				var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-				(function(){
-				var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-				s1.async=true;
-				s1.src='https://embed.tawk.to/5983243a4471ce54db65264d/default';
-				s1.charset='UTF-8';
-				s1.setAttribute('crossorigin','*');
-				s0.parentNode.insertBefore(s1,s0);
-				})();
-			</script>
-			<!--End of Tawk.to Script-->
-			<script type="text/javascript">
-			  var _paq = _paq || [];
-			  _paq.push(['trackPageView']);
-			  _paq.push(['enableLinkTracking']);
-			  (function() {
-			    var u="//cluster-piwik.locaweb.com.br/";
-			    _paq.push(['setTrackerUrl', u+'piwik.php']);
-			    _paq.push(['setSiteId', 18614]);
-			    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-			  })();
-			</script>
-			<noscript><p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=18614" style="border:0;" alt="" /></p></noscript>
-			<!-- End Piwik Code -->
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/efeitos.js"></script>
+		<!--Start of Tawk.to Script-->
+		<script type="text/javascript">
+			var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+			(function () {
+				var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+				s1.async = true;
+				s1.src = 'https://embed.tawk.to/5983243a4471ce54db65264d/default';
+				s1.charset = 'UTF-8';
+				s1.setAttribute('crossorigin', '*');
+				s0.parentNode.insertBefore(s1, s0);
+			})();
+		</script>
+		<!--End of Tawk.to Script-->
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function () {
+				var u = "//cluster-piwik.locaweb.com.br/";
+				_paq.push(['setTrackerUrl', u + 'piwik.php']);
+				_paq.push(['setSiteId', 18614]);
+				var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+				g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+			})();
+		</script>
+		<noscript>
+			<p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=18614" style="border:0;" alt="" /></p>
+		</noscript>
+		<!-- End Piwik Code -->
 	</body>
-</html>
+
+	</html>
