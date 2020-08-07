@@ -254,6 +254,9 @@
 	#logotipo {
 		left: 30%;
 	}
+	.nav-menu {
+		justify-content: center !important;
+	}
 	ul .dropdown-menu {
 		position: absolute;
 		top: -134%;
@@ -370,7 +373,7 @@
 		margin-top: 60px;
 	}
 }
-/*Tamanho padrão para Smartphones*/
+/*Tamanho padrão para 	phones*/
 @media only screen and (max-width: 420px) {
 	#logotipo {
 		top: 25px;
@@ -378,9 +381,12 @@
 		width: 140px;
 		height: 120px;
 	}
+	.nav-menu {
+		justify-content: center !important;
+	}
 	.container__instagram__feed {
-		/* flex-direction: column; */
-		/* border: 1px solid #000;	 */
+		flex-direction: column;
+		/* border: 1px solid #000; */
 	}
 	.container__instagram__feed__title {
 		/* border: 1px solid #000; */
@@ -388,7 +394,7 @@
 		border-top-right-radius: 16px;
 		border-bottom-right-radius: 0;
 		transform: rotate(0deg);
-		padding: 0;
+		padding: 4px 0;
 		width: 100%;
 	}
 	.container__instagram__feed__title span {
