@@ -6,9 +6,9 @@
         'display_biography': false,
         'display_gallery': true,
         'callback': null,
-        'styling': false,
+        'styling': true,
         'items': 10,
-        'items_per_row': 5,
+        'items_per_row': 3,
         'margin': 0.25
     });
 })();

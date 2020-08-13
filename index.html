@@ -9,7 +9,7 @@
 		<meta name="keywords"
 			content="cursos, imec, df, cursos são sebastião, imec cursos, cursos df, cursos gama, cursos planaltina" />
 		<meta name="robots" content="index, follow" />
-		<title>IMEC Cursos - São Sebastião</title>
+		<title>IMEP Cursos - São Sebastião</title>
 		<link rel="stylesheet" href="css/estilo.css">
 		<link rel="stylesheet" href="css/estilo-mobile.css">
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
@@ -43,7 +43,7 @@
 	</head>
 
 	<body>
-
+		<!-- MENU PRINCIPAL -->
 		<header>
 
 			<div id="menu-mobile-mask" class="visible-xs"></div>
@@ -61,9 +61,19 @@
 					<li><a href="quem-somos.html">QUEM SOMOS</a></li>
 					<li><a href="unidade.html"> UNIDADES</a></li>
 					<li><a href="contato.html">CONTATO</a></li>
-					<li><a href="contato.html"><span class="fab fa-whatsapp"></span> WHATSAPP</a></li>
-					<li><a href="contato.html"><span class="fab fa-facebook"></span> FACEBOOK</a></li>
-					<li><a href="contato.html"><span class="fab fa-instagram"></span> TWITTER</a></li>
+					<li class="redes-socias">
+						<a href="https://twitter.com/imepdf"><span class="fab fa-twitter"></span> TWITTER</a>
+					</li>
+					<li class="redes-socias">
+						<a href="https://www.instagram.com/imepcursos/"><span class="fab fa-instagram"></span>
+							INSTAGRAM
+						</a>
+					</li>
+					<li class="redes-socias">
+						<a href="https://www.facebook.com/imec.cursos/"><span class="fab fa-facebook"></span>
+							FACEBOOK
+						</a>
+					</li>
 				</ul>
 
 				<div class="bar-close">
@@ -78,12 +88,12 @@
 			<nav class="nav-menu">
 				<div>
 					<a href="index.html">
-						<img id="logotipo" src="img/imec.png" width="196" height="160" alt="Logotipo">
+						<img id="logotipo" src="img/LogoFinalRefeita.png" width="196" height="160" alt="Logotipo">
 					</a>
 				</div>
 				<div id="menu">
 					<ul>
-						<li><a href="index.html"> PRINCIAL</a> </li>
+						<li><a href="index.html"> PRINCIPAL</a> </li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="qualificacoes.html">CURSOS</a>
 							<ul class="dropdown-menu" role="menu">
@@ -109,49 +119,87 @@
 				</div>
 			</nav>
 		</header>
+		<!-- FIM MENU PRINCIPAL -->
 
-		<!-- início FEED INSTAGRAM -->
-		<div class="container__instagram__feed">
-			<div class="container__instagram__feed__title">
-				<span>VISITE NOSSO INSTAGRAM</span>
-			</div>
-			<div id="custom-instagram-feed" class="instagram_feed">
-			</div>
-		</div>
-		<!-- fim FEED INSTAGRAM -->
+		<!-- CARROSEL DE IMAGENS -->
+		<section>
+			<div id="slide" class="container">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
 
-		<!-- INÍCIO BANNER WHATSAPP -->
-		<section id='banner-whatsapp'>
-			<a href="https://api.whatsapp.com/send?phone=5561991083469&amp;text=Olá, tudo bem? Estou entrando em contato através do site do IMEP Cursos - São Sebastião."
-				target="_blank" rel="noopener noreferrer">
-				<picture>
-					<source media="(max-width:768px)" srcset='img/WhatsBarraMobile.png'>
-					<source media="(max-width:465px)" srcset="img/WhatsBarraMobile.png">
-					<img src="img/WhatsBarra.png" alt="banner-whatsapp" style=" width:auto;">
-				</picture>
-			</a>
-		</section>
-		<!--FIM BANNER WHATSAPP -->
+					<div class="carousel-inner">
 
-		<div id="faixa">
-			<div class="container">
-				<div class="col-sm-4">
-					<div class="col-padding">
-						<p><i class="fa">&#xf017;</i> Horários Flexíveis</p>
+						<div class="item">
+							<img src="img/home/superior.jpg" alt="Superior" style="width:100%;">
+						</div>
+
+						<div class="item active">
+							<img src="img/home/frase.jpg" alt="Frase" style="width:100%;">
+						</div>
+
+						<div class="item ">
+							<img src="img/home/ingles.jpg" alt="Inglês" style="width:100%;">
+						</div>
+
+						<div class="item">
+							<img src="img/home/supletivo.jpg" alt="Supletivo" style="width:100%;">
+						</div>
+
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Próximo</span>
+						</a>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="col-padding">
-						<p><i class="fa">&#xf2be;</i> Ensino Individualizado</p>
+				<!-- FIM CARROSEL DE IMAGENS  -->
+
+
+
+				<!-- INÍCIO BANNER WHATSAPP -->
+				<section id='banner-whatsapp'>
+					<a href="https://api.whatsapp.com/send?phone=5561991083469&amp;text=Olá, tudo bem? Estou entrando em contato através do site do IMEP Cursos - São Sebastião."
+						target="_blank" rel="noopener noreferrer">
+						<picture>
+							<source media="(max-width:768px)" srcset='img/WhatsBarraMobile.png'>
+							<source media="(max-width:465px)" srcset="img/WhatsBarraMobile.png">
+							<img src="img/WhatsBarra.png" alt="banner-whatsapp" style=" width:auto;">
+						</picture>
+					</a>
+				</section>
+				<!--FIM BANNER WHATSAPP -->
+
+
+				<!-- FAIXA -->
+				<div id="faixa">
+					<div class="container">
+						<div class="col-sm-4">
+							<div class="col-padding">
+								<p><i class="fa">&#xf017;</i> Horários Flexíveis</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="col-padding">
+								<p><i class="fa">&#xf2be;</i> Ensino Individualizado</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="col-padding">
+								<p><i class="fa">&#xf2bb;</i> Direito ao certificado</p>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="col-padding">
-						<p><i class="fa">&#xf2bb;</i> Direito ao certificado</p>
-					</div>
-				</div>
-			</div>
-		</div>
+				<!-- FIM FAIXA -->
+
 		</section>
 
 		<section>
@@ -274,6 +322,17 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- início FEED INSTAGRAM -->
+		<div class="container__instagram__feed">
+			<div class="container__instagram__feed__title">
+				<span>VISITE NOSSO INSTAGRAM</span>
+			</div>
+			<div id="custom-instagram-feed" class="instagram_feed">
+			</div>
+		</div>
+		<!-- fim FEED INSTAGRAM -->
+
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 			aria-hidden="true">
@@ -374,16 +433,14 @@
 		</div>
 		</div>
 		</section>
+
+		<!-- FOOTER -->
 		<footer>
-			<div class="copyright-index">
-				<div class="container">
-					<div class="center-block">
-						<p>© 2017-2018 - Todos os direitos reservados ao IMEC<small>Desenvolvido por Reinaldo
-								Alisson</small></p>
-					</div>
-				</div>
-			</div>
+			<p>© 2017-2018 - Todos os direitos reservados ao IMEC</p>
+			<p></p><small>Desenvolvido por Reinaldo Alisson</small></p>
 		</footer>
+		<!-- FIM FOOTER -->
+
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 

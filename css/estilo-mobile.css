@@ -40,16 +40,6 @@
 		height: 430px;
 		margin-top: 60px;
 	}
-	footer .copyright-index {
-		margin-top: 60px;
-	}
-	footer .copyright-quemsomos {
-	}
-	footer .copyright-supletivo {
-		margin-top: 33px;
-	}
-	footer .copyright-obrigado {
-		margin-top: 100px;
 	}
 }
 /*Tamanho adaptável para desktops*/
@@ -69,9 +59,6 @@
 	#mapa {
 		width: 350px;
 		height: 450px;
-		margin-top: 60px;
-	}
-	footer .copyright-index {
 		margin-top: 60px;
 	}
 }
@@ -95,24 +82,12 @@
 		width: 350px;
 		height: 450px;
 	}
-
-	footer .copyright-index {
-		margin-top: 150px;
-	}
 	#tourpackages-carousel {
 		display: block;
 	}
-	footer .copyright-quemsomos {
-	}
-	footer .copyright-quemsomos p {
-		font-size: 1rem;
-	}
-	footer .copyright-contato {
-		margin-top: 100px;
-	}
-	footer .copyright-obrigado {
-		margin-top: 140px;
-	}
+	.container__instagram__feed {
+		margin: 44px !important;	
+	}	
 }
 /*Tamanho padrão para Tablets*/
 @media only screen and (max-width: 767px) {
@@ -234,17 +209,10 @@
 		margin-bottom: 20px;
 		box-sizing: border-box;
 	}
-	footer .copyright-index {
-		margin-top: 200px;
-	}
-	footer .copyright-quemsomos {
-	}
-	footer .copyright-quemsomos p {
-		font-size: 1rem;
-	}
-	footer .copyright-contato {
-		margin-top: 100px;
-	}
+	.container__instagram__feed {
+		margin: 44px !important;	
+	}	
+
 }
 /*Tamanho padrão para Smartphones*/
 @media only screen and (max-width: 600px) {
@@ -369,9 +337,6 @@
 		color: #fff;
 		font-size: 22px;
 	}
-	footer .copyright-index {
-		margin-top: 60px;
-	}
 }
 /*Tamanho padrão para 	phones*/
 @media only screen and (max-width: 420px) {
@@ -414,6 +379,7 @@
 	.instagram_feed .instagram_gallery {
 		/* border: 1px solid #000; */
 		flex-direction: column;
+
 		/* margin: 22px; */
 	}
 	.instagram_feed .instagram_gallery img {
@@ -558,15 +524,6 @@
 		margin: 0px;
 		padding: 0px 90px;
 	}
-	footer .copyright-quemsomos {
-		padding: 5px;
-	}
-	footer .copyright-quemsomos p {
-		font-size: 1rem;
-	}
-	footer .copyright-obrigado {
-		margin-top: 150px;
-	}
 }
 /*Tamanho padrão para Smartphones*/
 @media only screen and (max-width: 375px) {
@@ -579,7 +536,7 @@
 	#logotipo {
 		top: 25px;
 		right: 75px;
-		margin-left: 155px;
+		/* margin-left: 155px; */
 		width: 140px;
 		height: 120px;
 		transition: 1s;
@@ -732,22 +689,12 @@
 	#boxh11 small {
 		font-size: 1.1rem;
 	}
-	footer .copyright-index {
-		margin-top: 60px;
-	}
-	footer .copyright-quemsomos {
-		margin-top: 25px;
-	}
-	footer .copyright-quemsomos p {
-		font-size: 1rem;
-	}
-	footer .copyright-contato {
-		margin-top: 70px;
-	}
-	footer .copyright-supletivo {
-		margin-top: 0px;
-	}
-	footer .copyright-obrigado {
-		margin-top: 78px;
-	}
+	.container__instagram__feed {
+		margin: 111px 20px!important;
+		margin-bottom: 1200px!important;
+	
+	}	
+	#custom-instagram-feed > div > a > img{	
+		width: 100%!important;
+	}	
 }
