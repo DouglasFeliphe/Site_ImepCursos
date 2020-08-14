@@ -7,8 +7,8 @@
         'display_gallery': true,
         'callback': null,
         'styling': true,
-        'items': 10,
-        'items_per_row': 3,
-        'margin': 0.25
+        'items': 12,
+        'items_per_row': 6,
+        'margin': 1
     });
 })();

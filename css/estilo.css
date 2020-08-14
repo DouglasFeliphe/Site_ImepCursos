@@ -134,7 +134,7 @@ nav.nav-menu {
 ul.nav li.dropdown:hover > ul.dropdown-menu {
 	display: block;
 }
-.container__instagram__feed {
+/* .container__instagram__feed {
 	margin: 111px;
 }
 .container__instagram__feed__title {
@@ -149,6 +149,33 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 .instagram_feed .instagram_gallery {
 	height: 100%;
+} */
+#custom-instagram-feed {
+	/* margin: 0 auto; */
+	/* display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap; */
+	margin-left: 15%;
+	padding: 44px 0;
+}
+.container__instagram__feed {
+	/* border: 1px solid #000; */
+	/* margin: 111px; */
+	/* margin: 33px 0; */
+}
+.instagram_feed {
+}
+.instagram_gallery {
+}
+#custom-instagram-feed .instagram-image,
+#custom-instagram-feed .instagram-video {
+	/* border: 1px solid #000;
+	display: flex;
+	justify-content: center; */
+}
+#custom-instagram-feed > div > a > img {
+	/* border: 1px solid #000; */
 }
 
 section#banner-whatsapp img {
