@@ -524,6 +524,9 @@
 		margin: 0px;
 		padding: 0px 90px;
 	}
+	#custom-instagram-feed > div > a > img{
+		width: 50%1important;
+	}
 }
 /*Tamanho padrão para Smartphones*/
 @media only screen and (max-width: 375px) {
@@ -692,9 +695,16 @@
 	.container__instagram__feed {
 		margin: 111px 20px!important;
 		margin-bottom: 1200px!important;
+		
 	
 	}	
+	#custom-instagram-feed{
+		margin-left: 0;
+		padding: 0;
+	}
 	#custom-instagram-feed > div > a > img{	
 		width: 100%!important;
+		margin-bottom: 33px!important;
+		margin-top: 66px;
 	}	
 }
