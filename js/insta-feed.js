@@ -9,6 +9,7 @@
         'styling': true,
         'items': 12,
         'items_per_row': 6,
-        'margin': 1
+        'margin': 1,
+        // 'image_size': 
     });
 })();

@@ -136,7 +136,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 /* INSTA FEED */
 #custom-instagram-feed {
-	/* margin-left: 15%; */
+	margin-right: 15%;
+	margin-left: 15%;
 	padding: 44px 0;
 }
 #custom-instagram-feed > div > a > img {
