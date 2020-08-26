@@ -6,7 +6,7 @@
         'display_biography': false,
         'display_gallery': true,
         'callback': null,
-        'styling': true,
+        'styling': false,
         'items': 12,
         'items_per_row': 6,
         'margin': 1,

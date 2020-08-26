@@ -19,6 +19,7 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
 			media="all">
+		<!-- <link rel="stylesheet" href="css/galeria.css"> -->
 		<script>
 			!function (f, b, e, v, n, t, s) {
 				if (f.fbq) return; n = f.fbq = function () {
@@ -162,13 +163,26 @@
 				</div>
 				<!-- FIM CARROSEL DE IMAGENS  -->
 
+				<!-- INICIO INSTA GALERIA -->
+
 				<!-- início FEED INSTAGRAM -->
 				<div class="container__instagram__feed">
-					<!-- <div class="container__instagram__feed__title">
-						<span>VISITE NOSSO INSTAGRAM</span>
-					</div> -->
-					<div id="custom-instagram-feed" class="instagram_feed">
+					<div class="container__instagram__feed__title">
+						<div>
+							<h1 class="boxh1">VISITE NOSSO INSTAGRAM</h1>
+						</div>
 					</div>
+					<!-- <hr class="my-5"> -->
+					<div onclick="prev()" class="control-prev-btn">
+						<i class="fas fa-arrow-left"></i>
+					</div>
+					<div ontouchmove="touchMove(event)" ontouchend='touchEnd(event)' id="custom-instagram-feed"
+						class="instagram_feed">
+					</div>
+					<div onclick="next()" class="control-next-btn">
+						<i class="fas fa-arrow-right"></i>
+					</div>
+
 				</div>
 				<!-- fim FEED INSTAGRAM -->
 
@@ -176,11 +190,16 @@
 				<section id='banner-whatsapp'>
 					<a href="https://api.whatsapp.com/send?phone=5561991083469&amp;text=Olá, tudo bem? Estou entrando em contato através do site do IMEP Cursos - São Sebastião."
 						target="_blank" rel="noopener noreferrer">
-						<picture>
+						<!-- <picture>
 							<source media="(max-width:768px)" srcset='img/WhatsBarraMobile.png'>
 							<source media="(max-width:465px)" srcset="img/WhatsBarraMobile.png">
-							<img src="img/WhatsBarra.png" alt="banner-whatsapp" style=" width:auto;">
-						</picture>
+							<img src="img/WhatsBarra.png" alt="banner-whatsapp">
+						</picture> -->
+						<i class="fab fa-whatsapp"></i>
+						<span>
+							ENTRE EM CONTATO PELO WHATSAPP
+						</span>
+						<i class="fab fa-whatsapp"></i>
 					</a>
 				</section>
 				<!--FIM BANNER WHATSAPP -->
@@ -213,7 +232,7 @@
 		<section>
 			<div class="container">
 				<div>
-					<h1 id="boxh1">O QUE OFERECEMOS <small><br>Nosso objetivo é desenvolver os melhores
+					<h1 class="boxh1">O QUE OFERECEMOS <small><br><br>Nosso objetivo é desenvolver os melhores
 							profissionais do
 							mercado.</small></h1>
 				</div>
@@ -270,7 +289,8 @@
 		</section>
 		<div class="container">
 			<div>
-				<h1 id="boxh11">GANHE UM CURSO GRÁTIS<small><br>Escolha um dos cursos abaixo e se inscreva</small>
+				<h1 class="boxh1">GANHE UM CURSO GRÁTIS<small><br><br>Escolha um dos cursos abaixo e se
+						inscreva</small>
 				</h1>
 			</div>
 			<div class="col-sm-4 col-md-4">
